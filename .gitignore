@@ -1,0 +1,29 @@
+# Terraform
+__pycache__/
+.terraform
+.terraform.lock.hcl
+*.tfvars
+*.tfplan
+tfplan
+terraform.*
+
+# Python
+venv/
+.pytest_cache/
+.env
+.ssh/
+*.pem
+
+# Test Reports
+coverage_reports/
+.coverage
+
+# draw.io
+*.drawio
+*.drawio.bkp
+
+# Build
+build/
+
+#vs code
+.vscode/

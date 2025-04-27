@@ -1,0 +1,5 @@
+boto3>=1.24.0
+requests>=2.28.1
+python-dateutil>=2.8.2
+pyjwt>=2.4.0
+AWSIoTPythonSDK>=1.5.0 

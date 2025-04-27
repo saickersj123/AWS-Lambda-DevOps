@@ -1,0 +1,14 @@
+{
+  "name": "device_status",
+  "description": "Handler for device status updates",
+  "runtime": "python3.11",
+  "handler": "index.lambda_handler",
+  "timeout": 30,
+  "memory_size": 128,
+  "api": {
+    "path": "/device_status",
+    "methods": ["GET", "POST"]
+  },
+  "environment_variables": {},
+  "additional_policies": []
+} 

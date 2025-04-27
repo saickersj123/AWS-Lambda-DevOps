@@ -1,0 +1,5 @@
+# No additional dependencies required.
+# All common dependencies are provided by the shared layer:
+# - boto3
+# - requests
+# - python-dateutil 

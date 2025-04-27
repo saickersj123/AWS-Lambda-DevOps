@@ -1,0 +1,11 @@
+[flake8]
+exclude = 
+    .git,
+    __pycache__,
+    .pytest_cache,
+    venv,
+    */migrations/*,
+    build,
+    dist
+max-line-length = 88
+ignore = E501,E402,W503 

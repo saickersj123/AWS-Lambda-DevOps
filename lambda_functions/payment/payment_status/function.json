@@ -1,0 +1,14 @@
+{
+  "name": "payment_status",
+  "description": "Handler for payment status checks",
+  "runtime": "python3.11",
+  "handler": "index.lambda_handler",
+  "timeout": 30,
+  "memory_size": 128,
+  "api": {
+    "path": "/payment_status",
+    "method": ["GET", "POST", "PUT", "DELETE"]
+  },
+  "environment_variables": {},
+  "additional_policies": []
+} 

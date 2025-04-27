@@ -1,0 +1,33 @@
+# Test dependencies
+pytest>=8.3.5
+pytest-cov>=6.1.1
+moto>=5.1.4
+freezegun>=1.5.1
+responses>=0.25.7
+
+# Linting & Formatting
+flake8>=7.2.0
+black>=25.1.0
+isort>=6.0.1
+pre-commit>=4.2.0
+
+# Security scanning
+bandit>=1.8.3
+safety>=3.4.0
+
+# Type checking
+mypy>=1.15.0
+types-requests>=2.32.0.20250328
+types-boto3>=1.38.3
+
+# AWS
+boto3>=1.38.3
+botocore>=1.38.3
+#aws-cdk-lib==2.184.1
+#constructs==10.4.2
+
+# HTTP
+requests>=2.32.3
+
+# Utilities
+python-dotenv>=1.1.0

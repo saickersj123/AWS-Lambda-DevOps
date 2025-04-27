@@ -1,0 +1,35 @@
+# Core pipeline plugins
+workflow-aggregator
+pipeline-stage-view
+git
+
+# Docker integration
+docker-workflow
+docker-plugin
+
+# AWS integration
+aws-credentials
+pipeline-aws
+aws-global-configuration
+
+# Utility plugins
+credentials
+credentials-binding
+timestamper
+
+# UI plugins
+blueocean
+
+# Testing and reporting
+junit
+warnings-ng
+coverage
+
+# Notification
+email-ext
+slack
+
+# Utilities
+pipeline-utility-steps
+configuration-as-code
+ws-cleanup
